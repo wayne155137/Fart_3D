@@ -1,0 +1,462 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 32602 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/Users/wayne/Fart_3D
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+64155
+Successfully changed project path to: C:/Users/wayne/Fart_3D
+C:/Users/wayne/Fart_3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25228] Host "[IP] 192.168.1.111 [Port] 0 [Flags] 2 [Guid] 1075218284 [EditorId] 1075218284 [Version] 1048832 [Id] WindowsEditor(7,WaynePC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25228] Host "[IP] 192.168.1.111 [Port] 0 [Flags] 2 [Guid] 1075218284 [EditorId] 1075218284 [Version] 1048832 [Id] WindowsEditor(7,WaynePC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Refreshing native plugins compatible for Editor in 4.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.19f1 (244b723c30a6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/wayne/Fart_3D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006298 seconds.
+- Loaded All Assemblies, in  0.246 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.167 seconds
+Domain Reload Profiling: 412ms
+	BeginReloadAssembly (65ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (116ms)
+		LoadAssemblies (64ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (113ms)
+				TypeCache.ScanAssembly (99ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (167ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (133ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (90ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+TypeRef ResolutionScope not yet handled (218) for .IMergeView in image C:\Users\wayne\Fart_3D\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Unloading broken assembly Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll, this assembly can cause crashes in the runtime
+- Loaded All Assemblies, in  0.448 seconds
+Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
+Could not load signature of Unity.PlasticSCM.Editor.Gluon.UpdateReport.UpdateReportDialog:ShowUpdateReport due to: Could not resolve type with token 0100006b from typeref (expected class 'Codice.Client.BaseCommands.ErrorMessage' in assembly 'unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876') assembly:unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:Codice.Client.BaseCommands.ErrorMessage member:(null)
+Could not load signature of Unity.PlasticSCM.Editor.Gluon.UpdateReport.UpdateReportDialog:UpdateUpdateReportList due to: Could not resolve type with token 0100006b from typeref (expected class 'Codice.Client.BaseCommands.ErrorMessage' in assembly 'unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876') assembly:unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:Codice.Client.BaseCommands.ErrorMessage member:(null)
+Could not load signature of Unity.PlasticSCM.Editor.Gluon.UpdateReport.UpdateReportDialog:GetErrorDetailsText due to: Could not resolve type with token 0100006b from typeref (expected class 'Codice.Client.BaseCommands.ErrorMessage' in assembly 'unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876') assembly:unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:Codice.Client.BaseCommands.ErrorMessage member:(null)
+Could not load signature of Unity.PlasticSCM.Editor.Gluon.UpdateReport.UpdateReportDialog:DoErrorDetailsTextArea due to: Could not resolve type with token 0100006b from typeref (expected class 'Codice.Client.BaseCommands.ErrorMessage' in assembly 'unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876') assembly:unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:Codice.Client.BaseCommands.ErrorMessage member:(null)
+Could not load signature of Unity.PlasticSCM.Editor.Gluon.UpdateReport.UpdateReportDialog:Create due to: Could not resolve type with token 0100006b from typeref (expected class 'Codice.Client.BaseCommands.ErrorMessage' in assembly 'unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876') assembly:unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:Codice.Client.BaseCommands.ErrorMessage member:(null)
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.324 seconds
+Domain Reload Profiling: 771ms
+	BeginReloadAssembly (102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (289ms)
+		LoadAssemblies (250ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (101ms)
+			TypeCache.Refresh (88ms)
+				TypeCache.ScanAssembly (80ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (325ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (241ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (185ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3108 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (57.0 KB). Loaded Objects now: 3569.
+Memory consumption went from 123.6 MB to 123.5 MB.
+Total: 1.877000 ms (FindLiveObjects: 0.130900 ms CreateObjectMapping: 0.037600 ms MarkObjects: 1.639500 ms  DeleteObjects: 0.068400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/precompiled-assembly-types:Unity.PlasticSCM.Editor: fa07261737969afd534745fdbb5a9ba0 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:unityplastic: 80ce6fce021ee75cb20edaadb7bf11e0 -> 1b07f3d0d2a7bfbf691bf3af903a2067
+========================================================================
+Received Import Request.
+  Time since last request: 185875.384925 seconds.
+  path: Assets/Sci-Fi Tomb/Textures/Materials
+  artifactKey: Guid(24c5c14fbcc34c84c81cc9cee1dbeb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Tomb/Textures/Materials using Guid(24c5c14fbcc34c84c81cc9cee1dbeb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3f0ad76bed984f7379c429bc30d27a') in 0.002424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 50.431460 seconds.
+  path: Assets/Mateirals/New Material.mat
+  artifactKey: Guid(b91fe2ef909ffca4eb6f6a53877b5384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mateirals/New Material.mat using Guid(b91fe2ef909ffca4eb6f6a53877b5384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7eca863b87228c6c80b9a9f000a451') in 0.079597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 357.232880 seconds.
+  path: Assets/Mateirals/laminate-flooring-brown_albedo.png
+  artifactKey: Guid(729aad148da075f46b3f864a81ebe574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mateirals/laminate-flooring-brown_albedo.png using Guid(729aad148da075f46b3f864a81ebe574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dfd64f98ede00893eaa0374ccbd68d2') in 0.023014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 347.815967 seconds.
+  path: Assets/Mateirals/vintage-tile1_albedo.png
+  artifactKey: Guid(0d73a9ac33c35754eb762f66022436a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mateirals/vintage-tile1_albedo.png using Guid(0d73a9ac33c35754eb762f66022436a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad41baa92ffc99a4bbbbe43fc2a7e31') in 0.022378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 18.180419 seconds.
+  path: Assets/Mateirals/Floor_wooden.mat
+  artifactKey: Guid(b91fe2ef909ffca4eb6f6a53877b5384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mateirals/Floor_wooden.mat using Guid(b91fe2ef909ffca4eb6f6a53877b5384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a5937647cda1817d346e211f7229d2') in 0.010761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.739728 seconds.
+  path: Assets/Mateirals/Floor_vintagetile.mat
+  artifactKey: Guid(0815ee8b479b58c469aae05d23979239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mateirals/Floor_vintagetile.mat using Guid(0815ee8b479b58c469aae05d23979239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8718a156935b6fdc88352ca0f7695a') in 0.014891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 154.346580 seconds.
+  path: Assets/Mateirals/beige-carpet-worn1-albedo.png
+  artifactKey: Guid(7145ba21ea28332499929150f329b465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mateirals/beige-carpet-worn1-albedo.png using Guid(7145ba21ea28332499929150f329b465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88e0f4bd086c08f109ee7817d3c94c2') in 0.015524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.714448 seconds.
+  path: Assets/Mateirals/Floor_carpet.mat
+  artifactKey: Guid(712e2d41b8958314187fd124609fb88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mateirals/Floor_carpet.mat using Guid(712e2d41b8958314187fd124609fb88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5753058c1efe1b7b1336c0bb89245d') in 0.009155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 126.164272 seconds.
+  path: Assets/Mateirals/bathroomtile2-basecolor.png
+  artifactKey: Guid(7cb0d5af41d0c8e4b9a7ec12846d8c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mateirals/bathroomtile2-basecolor.png using Guid(7cb0d5af41d0c8e4b9a7ec12846d8c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846ec413c0a2a1d917e72083892f7b03') in 0.020588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.908195 seconds.
+  path: Assets/Mateirals/New Material.mat
+  artifactKey: Guid(b72978ad5b50b7b49a0177f02337c935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mateirals/New Material.mat using Guid(b72978ad5b50b7b49a0177f02337c935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d31de3421ef8b965b59da9cee4bb415') in 0.012152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 111.845950 seconds.
+  path: Assets/Mateirals/stylized-grass1_albedo.png
+  artifactKey: Guid(d3b264cd8f7d7f44dbd0f0f10fa60e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mateirals/stylized-grass1_albedo.png using Guid(d3b264cd8f7d7f44dbd0f0f10fa60e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b48c7485a13ada7bd57e242496d8c4') in 0.017084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.986061 seconds.
+  path: Assets/Mateirals/Floor_Backyard.mat
+  artifactKey: Guid(a8bf673aee258284dbddd07fdf2ad02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mateirals/Floor_Backyard.mat using Guid(a8bf673aee258284dbddd07fdf2ad02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88f169a448b34cfc0e967f1f92740d1') in 0.013489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 147.283546 seconds.
+  path: Assets/Mateirals/patchy-meadow1_albedo.png
+  artifactKey: Guid(b8c4d27e7ec95a54d855b94dde0d21bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mateirals/patchy-meadow1_albedo.png using Guid(b8c4d27e7ec95a54d855b94dde0d21bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0a643df0aaf7c97339d3e6aa53954a') in 0.020579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 116.225270 seconds.
+  path: Assets/Mateirals/grassy-meadow1_albedo.png
+  artifactKey: Guid(6c6980fec9b99a44abe931ae33e4efd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mateirals/grassy-meadow1_albedo.png using Guid(6c6980fec9b99a44abe931ae33e4efd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f497d4c64fa7720d8e2e1eac814733') in 0.016373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 365.553765 seconds.
+  path: Assets/Mateirals/Floor_Backyard.mat
+  artifactKey: Guid(a8bf673aee258284dbddd07fdf2ad02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mateirals/Floor_Backyard.mat using Guid(a8bf673aee258284dbddd07fdf2ad02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763920a91663561e547f52a8f5052882') in 0.018282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mateirals/Floor_vintagetile.mat
+  artifactKey: Guid(0815ee8b479b58c469aae05d23979239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mateirals/Floor_vintagetile.mat using Guid(0815ee8b479b58c469aae05d23979239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd542cdd314d353d28f6fef78b376ca') in 0.013810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mateirals/New Material.mat
+  artifactKey: Guid(b72978ad5b50b7b49a0177f02337c935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mateirals/New Material.mat using Guid(b72978ad5b50b7b49a0177f02337c935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e68e08b101e26e3eb048230d4c40e8') in 0.013873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mateirals/Tile.mat
+  artifactKey: Guid(5df2bc202d352604db6c65f20a79241c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mateirals/Tile.mat using Guid(5df2bc202d352604db6c65f20a79241c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436b31acb9175681286e29dd166bb886') in 0.025414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.397688 seconds.
+  path: Assets/CubePeopleDemo/Animations/Idle00.FBX
+  artifactKey: Guid(f18022f77a976b848b43f178d1eeee28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubePeopleDemo/Animations/Idle00.FBX using Guid(f18022f77a976b848b43f178d1eeee28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e73d41dd662a423d01a12fdf5b99c5c') in 0.013157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 0.658432 seconds.
+  path: Assets/CubePeopleDemo/Materials/Item_Cm00_00.mat
+  artifactKey: Guid(3b17c147444ee364d8acec1bbf6f83e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubePeopleDemo/Materials/Item_Cm00_00.mat using Guid(3b17c147444ee364d8acec1bbf6f83e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ced4970bd1bc449020842c9fcbeba23') in 0.063775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.569597 seconds.
+  path: Assets/CubePeopleDemo/Meshes/Ch_CP00.FBX
+  artifactKey: Guid(afb4f7eac1239eb438139d748b6aea07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubePeopleDemo/Meshes/Ch_CP00.FBX using Guid(afb4f7eac1239eb438139d748b6aea07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6563c5627a218f71b18684a70e962203') in 0.087574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 0.616754 seconds.
+  path: Assets/CubePeopleDemo/Prefabs/DemoPlayer00.prefab
+  artifactKey: Guid(ea9f5ee1882006644944ac42a1b7f868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubePeopleDemo/Prefabs/DemoPlayer00.prefab using Guid(ea9f5ee1882006644944ac42a1b7f868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f8ed0c7f0c3f42f5bab3d10a24b628') in 0.021358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 47.162110 seconds.
+  path: Assets/CubePeopleDemo/Textures/Item_Item00.png
+  artifactKey: Guid(c9c4de1ace111674f907ac1bd99f26ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubePeopleDemo/Textures/Item_Item00.png using Guid(c9c4de1ace111674f907ac1bd99f26ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441a809f8d86ad9a2b561fb450d49c08') in 0.019230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.186219 seconds.
+  path: Assets/CubePeopleDemo/Materials/Eff
+  artifactKey: Guid(b1702b08685159141a304545d67184e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubePeopleDemo/Materials/Eff using Guid(b1702b08685159141a304545d67184e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8524eed7e46e8d98610032d2aa045412') in 0.000526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.714049 seconds.
+  path: Assets/CubePeopleDemo/Textures/Eff
+  artifactKey: Guid(0924bf8e25c62dd499f8acb93a0604c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubePeopleDemo/Textures/Eff using Guid(0924bf8e25c62dd499f8acb93a0604c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50863080a4c93623a69c0ba654c56fe3') in 0.000452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.830294 seconds.
+  path: Assets/CubePeopleDemo/Textures/Eff/CircleSprite.png
+  artifactKey: Guid(9ef411216a4c6414494c7ab78dcc30db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubePeopleDemo/Textures/Eff/CircleSprite.png using Guid(9ef411216a4c6414494c7ab78dcc30db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46af14a0133f172b0e10352e450b0ff1') in 0.023478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/CubePeopleDemo/Textures/Eff/GlowDot01.png
+  artifactKey: Guid(51e5160a96b00994da5ec17a3abf814e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubePeopleDemo/Textures/Eff/GlowDot01.png using Guid(51e5160a96b00994da5ec17a3abf814e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89335d394c42f5ac973785a86b10179c') in 0.014371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.689535 seconds.
+  path: Assets/CubePeopleDemo/Textures/Ch
+  artifactKey: Guid(4d592e7ad2d105e498655d9d7f9acd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubePeopleDemo/Textures/Ch using Guid(4d592e7ad2d105e498655d9d7f9acd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287146165c6009f853686119b6f6491c') in 0.000393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.077667 seconds.
+  path: Assets/CubePeopleDemo/Textures/Ch/Ch_0CP00_Bottom00.png
+  artifactKey: Guid(a0f7cd582ae3b854b9946e68aabd5cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubePeopleDemo/Textures/Ch/Ch_0CP00_Bottom00.png using Guid(a0f7cd582ae3b854b9946e68aabd5cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4104df2f3a154827ef446eaeec7110e5') in 0.017513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CubePeopleDemo/Textures/Ch/Ch_0CP01_Bottom01.png
+  artifactKey: Guid(72bd52a5603e6b249b47557f4e89ab54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubePeopleDemo/Textures/Ch/Ch_0CP01_Bottom01.png using Guid(72bd52a5603e6b249b47557f4e89ab54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2750bcaa586053e473b7e81af770d3d') in 0.012216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 20.779240 seconds.
+  path: Assets/CubePeopleDemo/Prefabs/Equipment
+  artifactKey: Guid(c47101c22df823d49803d7e1a620d535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubePeopleDemo/Prefabs/Equipment using Guid(c47101c22df823d49803d7e1a620d535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176d4fb496e76058144fa6713ea28eea') in 0.000381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.079755 seconds.
+  path: Assets/CubePeopleDemo/Prefabs/Equipment/Item_Backpack00.prefab
+  artifactKey: Guid(b4b9039d24da74943863f97fcab0fcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubePeopleDemo/Prefabs/Equipment/Item_Backpack00.prefab using Guid(b4b9039d24da74943863f97fcab0fcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1f2e8f89ef9ed9493529c8ef7a1f2e') in 0.014970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CubePeopleDemo/Prefabs/Equipment/Weapon_Rifle00.prefab
+  artifactKey: Guid(a79c500501f4708429c4388a12cb53eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubePeopleDemo/Prefabs/Equipment/Weapon_Rifle00.prefab using Guid(a79c500501f4708429c4388a12cb53eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58a4bf0646b7c83c657b949170c6e78') in 0.011785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
